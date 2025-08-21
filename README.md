@@ -1,5 +1,5 @@
 
-# OOP Notları (Öğrenci Dostu Anlatım)
+# OOP Notları 
 
 ## Class (Sınıf)
 - Sınıf bir **şablon** gibidir. Ev yaparken çizilen plan gibi.
@@ -76,6 +76,7 @@
 - **Inheritance**: Miras, tekrar yazma.  
 - **Polymorphism**: Aynı metot, farklı davranış.  
 - **Abstraction**: Gereksizi sakla, özünü göster.
+
 
 
 
