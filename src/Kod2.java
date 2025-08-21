@@ -1,15 +1,11 @@
-/**
- * Kod2.java - OOP İleri Seviye Örneği
- * Kalıtım ve Polimorfizm kavramları
- */
+
 public class Kod2 {
     public static void main(String[] args) {
-        // Farklı hayvan nesneleri oluşturma
-        Hayvan hayvan1 = new Kopek("Karabaş", 3, "Golden Retriever");
-        Hayvan hayvan2 = new Kedi("Pamuk", 2, "Tekir");
-        Hayvan hayvan3 = new Kus("Maviş", 1, "Muhabbet Kuşu");
         
-        // Polimorfizm - aynı metodu farklı şekillerde çağırma
+ Hayvan hayvan1 = new Kopek("Karabaş", 3, "Golden Retriever");
+ Hayvan hayvan2 = new Kedi("Pamuk", 2, "Tekir");
+ Hayvan hayvan3 = new Kus("Maviş", 1, "Muhabbet Kuşu");
+                
         System.out.println("=== Hayvanların Sesleri ===");
         hayvan1.sesCikar();
         hayvan2.sesCikar();
@@ -19,33 +15,23 @@ public class Kod2 {
         hayvan1.bilgileriGoster();
         hayvan2.bilgileriGoster();
         hayvan3.bilgileriGoster();
-        
-        // Hayvanları hareket ettirme
+   
         System.out.println("\n=== Hayvanların Hareketleri ===");
         hayvan1.hareketEt();
         hayvan2.hareketEt();
         hayvan3.hareketEt();
     }
 }
-
-/**
- * Ana sınıf - Hayvan
- */
 abstract class Hayvan {
     protected String ad;
     protected int yas;
-    
-    // Constructor
     public Hayvan(String ad, int yas) {
         this.ad = ad;
         this.yas = yas;
     }
     
-    // Abstract metodlar - alt sınıflar tarafından implement edilmeli
     public abstract void sesCikar();
     public abstract void hareketEt();
-    
-    // Ortak metod
     public void bilgileriGoster() {
         System.out.println("Hayvan: " + ad + ", Yaş: " + yas);
     }
@@ -60,9 +46,7 @@ abstract class Hayvan {
     }
 }
 
-/**
- * Köpek sınıfı - Hayvan sınıfından kalıtım alır
- */
+
 class Kopek extends Hayvan {
     private String cins;
     
@@ -87,15 +71,13 @@ class Kopek extends Hayvan {
         System.out.println("Cins: " + cins);
     }
     
-    // Köpeğe özel metod
+
     public void topGetir() {
         System.out.println(ad + " topu getiriyor!");
     }
 }
 
-/**
- * Kedi sınıfı - Hayvan sınıfından kalıtım alır
- */
+
 class Kedi extends Hayvan {
     private String renk;
     
@@ -120,15 +102,13 @@ class Kedi extends Hayvan {
         System.out.println("Renk: " + renk);
     }
     
-    // Kediye özel metod
+    
     public void purr() {
         System.out.println(ad + " mırıldanıyor: Prrrrr...");
     }
 }
 
-/**
- * Kuş sınıfı - Hayvan sınıfından kalıtım alır
- */
+
 class Kus extends Hayvan {
     private String tur;
     
