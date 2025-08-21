@@ -1,4 +1,82 @@
 
+# OOP Notları (Öğrenci Dostu Anlatım)
+
+## Class (Sınıf)
+- Sınıf bir **şablon** gibidir. Ev yaparken çizilen plan gibi.
+- Özellikler (renk, hız) + davranışlar (çalıştır(), dur()) içerir.
+- Tek başına iş yapmaz → ondan üretilen **nesneler** çalışır.
+- İsimlendirme mantıklı olmalı: `Araba`, `Ogrenci`, `Siparis`.
+- Tek sorumluluk prensibi: Her sınıf tek iş yapmalı.
+- Her şeyi tek sınıfa koyma (God Class problemi).
+- Constructor = nesnenin doğum anı → ilk bilgileri burada ver.
+- Mecburi olanı constructor’da al, opsiyonel olanı setter ile.
+
+---
+
+## Object (Nesne)
+- Nesne = sınıfın **gerçek hali**.  
+  Örn: `Araba` sınıfı → `BMW`, `Mercedes` nesne.
+- `new` ile oluşturulur: `new Araba()`.
+- Her nesne kendi verilerini taşır (kırmızı araba ≠ mavi araba).
+- Kimlik ve eşitlik farkı: aynı nesne mi, yoksa sadece verileri mi aynı?
+- Nesneler bağımsızdır ama bazen birbirine ihtiyaç duyar (bağımlılığı abartma).
+- Nesneler hep tutarlı durumda olmalı (çöp veri taşımamalı).
+
+---
+
+## Encapsulation (Kapsülleme)
+- Amaç: **Veriyi korumak**.
+- Değişkenleri `private` yap → dışarıdan direkt erişilmesin.
+- Getter/Setter ile kontrollü erişim ver.
+- Setter’da mantık kontrolü yap: yaş -5 olamaz.
+- Her alan için getter/setter yazma, gerçekten ihtiyaç olanı aç.
+- Dışarıya ne kadar az gösterirsen o kadar güvenli olur.
+- Mantık: **“Kapıyı açıyorum ama kim girecek ben karar veriyorum.”**
+
+---
+
+## Inheritance (Kalıtım / Miras)
+- Ortak özellikleri üst sınıfa koy, diğerleri miras alsın.
+- Örn: `Hayvan` → `Kopek`, `Kedi`.
+- **is-a ilişkisi** varsa kullanılmalı. (Köpek bir hayvandır ✔, ama köpek bir motor değildir ✘)
+- Kod tekrarını azaltır ama aşırıya kaçarsan karmaşık olur.
+- Çok derin miras zincirlerinden kaçın (dede → baba → çocuk → torun).
+- Bazen miras yerine **kompozisyon** daha iyidir.  
+  Örn: Araba bir motor içerir → motor ayrı sınıf olmalı.
+- Üst sınıf değişince alt sınıflar da etkilenebilir.
+
+---
+
+## Polymorphism (Çok Biçimlilik)
+- Aynı isimde metot, nesneye göre farklı davranır.
+- Örn: `sesCikar()` → köpek “Hav!”, kedi “Miyav!”.
+- Bu sayede `if-else` çorbasına gerek kalmaz.
+- **Overloading**: Aynı isim, farklı parametre (toplama(int,int), toplama(double,double)).
+- **Overriding**: Üst sınıftaki metodu alt sınıfta değiştirme.
+- Polimorfizm → sistemi esnek ve genişletilebilir yapar.
+
+---
+
+## Abstraction (Soyutlama)
+- Gereksiz detayları gizle, önemli kısmı göster.
+- Arabayı sürerken motorun pistonunu bilmek gerekmez.
+- Kullanıcı **ne yapıldığını** bilir, **nasıl yapıldığını** bilmek zorunda değildir.
+- Java’da: `abstract class` veya `interface` ile yapılır.
+- `abstract class`: hem soyut hem somut metodlar olabilir.
+- `interface`: genelde sadece metod imzaları (sözleşme).
+- Soyut sınıflardan **nesne oluşturulamaz**.
+- İyi soyutlama → bağımlılığı azaltır, test yazmayı kolaylaştırır.
+
+---
+
+## 🔑 Kısaca Hatırlanacaklar
+- **Class**: Şablon.  
+- **Object**: Gerçek şey.  
+- **Encapsulation**: Veriyi sakla, kontrollü erişim.  
+- **Inheritance**: Miras, tekrar yazma.  
+- **Polymorphism**: Aynı metot, farklı davranış.  
+- **Abstraction**: Gereksizi sakla, özünü göster.
+
 
 
 
