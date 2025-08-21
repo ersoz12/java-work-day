@@ -1,4 +1,4 @@
-public class kod2 {
+public class Kod2 {
   public static void main(String[] args) {
     
     Kopek k1 = new Kopek("Karabas",3,"Golden");
