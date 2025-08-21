@@ -1,139 +1,91 @@
+public class kod2 {
+  public static void main(String[] args) {
+    
+    Kopek k1 = new Kopek("Karabas",3,"Golden");
+    Kedi k2 = new Kedi("Pamuk",2,"Tekir");
+    Kus k3 = new Kus("Mavis",1,"Muhabbet");
 
-public class Kod2 {
-    public static void main(String[] args) {
-        
- Hayvan hayvan1 = new Kopek("Karabaş", 3, "Golden Retriever");
- Hayvan hayvan2 = new Kedi("Pamuk", 2, "Tekir");
- Hayvan hayvan3 = new Kus("Maviş", 1, "Muhabbet Kuşu");
-                
-        System.out.println("Hayvanların Sesleri ");
-        hayvan1.sesCikar();
-        hayvan2.sesCikar();
-        hayvan3.sesCikar();
-        
-        System.out.println("\n Hayvanların Bilgileri");
-        hayvan1.bilgileriGoster();
-        hayvan2.bilgileriGoster();
-        hayvan3.bilgileriGoster();
-   
-        System.out.println("\n Hayvanların Hareketleri");
-        hayvan1.hareketEt();
-        hayvan2.hareketEt();
-        hayvan3.hareketEt();
-    }
-}
-abstract class Hayvan {
-    protected String ad;
-    protected int yas;
-    public Hayvan(String ad, int yas) {
-        this.ad = ad;
-        this.yas = yas;
-    }
-    
-    public abstract void sesCikar();
-    public abstract void hareketEt();
-    public void bilgileriGoster() {
-        System.out.println("Hayvan: " + ad + ", Yaş: " + yas);
-    }
-    
-    // Getter metodları
-    public String getAd() {
-        return ad;
-    }
-    
-    public int getYas() {
-        return yas;
-    }
+    System.out.println("sesler");
+    k1.sesCikar();
+    k2.sesCikar();
+    k3.sesCikar();
+
+    System.out.println("bilgiler");
+    k1.bilgileriGoster();
+    k2.bilgileriGoster();
+    k3.bilgileriGoster();
+
+    System.out.println("hareketler");
+    k1.hareketEt();
+    k2.hareketEt();
+    k3.hareketEt();
+  }
 }
 
-
-class Kopek extends Hayvan {
-    private String cins;
-    
-    public Kopek(String ad, int yas, String cins) {
-        super(ad, yas); // Üst sınıfın constructor'ını çağırır
-        this.cins = cins;
-    }
-    
-    @Override
-    public void sesCikar() {
-        System.out.println(ad + " (Köpek): Hav hav!");
-    }
-    
-    @Override
-    public void hareketEt() {
-        System.out.println(ad + " koşuyor , kuyruğunu sallıyor.");
-    }
-    
-    @Override
-    public void bilgileriGoster() {
-        super.bilgileriGoster(); 
-        System.out.println("Cins: " + cins);
-    }
-    
-    public void topGetir() {
-        System.out.println(ad + " topu getiriyor");
-    }
+abstract class hayvan {
+  String ad;
+  int yas;
+  public hayvan(String a, int y) {
+    ad=a;
+    yas=y;
+  }
+  public abstract void sesCikar();
+  public abstract void hareketEt();
+  public void bilgileriGoster(){
+    System.out.println("Ad:"+ad+" Yas:"+yas);
+  }
 }
 
-
-class Kedi extends Hayvan {
-    private String renk;
-    
-    public Kedi(String ad, int yas, String renk) {
-        super(ad, yas);
-        this.renk = renk;
-    }
-    
-    @Override
-    public void sesCikar() {
-        System.out.println(ad + " (Kedi): Miyav");
-    }
-    
-    @Override
-    public void hareketEt() {
-        System.out.println(ad + " sessizce yürüyor ve tırmalıyor.");
-    }
-    
-    @Override
-    public void bilgileriGoster() {
-        super.bilgileriGoster();
-        System.out.println("Renk: " + renk);
-    }
-    
-    
-    public void purr() {
-        System.out.println(ad + " mırıldanıyor: Prrrrr");
-    }
+class Kopek extends hayvan {
+  String cins;
+  public Kopek(String a, int y, String c) {
+    super(a,y);
+    cins=c;
+  }
+  public void sesCikar(){
+    System.out.println(ad+" hav hav");
+  }
+  public void hareketEt(){
+    System.out.println(ad+" kosuyor");
+  }
+  public void bilgileriGoster(){
+    super.bilgileriGoster();
+    System.out.println("Cins:"+cins);
+  }
 }
 
+class Kedi extends hayvan {
+  String renk;
+  public Kedi(String a, int y, String r) {
+    super(a,y);
+    renk=r;
+  }
+  public void sesCikar(){
+    System.out.println(ad+" miyav");
+  }
+  public void hareketEt(){
+    System.out.println(ad+" tirmaniyor");
+  }
+  public void bilgileriGoster(){
+    super.bilgileriGoster();
+    System.out.println("Renk:"+renk);
+  }
+}
 
-class Kus extends Hayvan {
-    private String tur;
-    
-    public Kus(String ad, int yas, String tur) {
-        super(ad, yas);
-        this.tur = tur;
-    }
-    
-    @Override
-    public void sesCikar() {
-        System.out.println(ad + " (Kuş): Cik cik!");
-    }
-    
-    @Override
-    public void hareketEt() {
-        System.out.println(ad + " uçuyor ve kanat çırpıyor.");
-    }
-    
-    @Override
-    public void bilgileriGoster() {
-        super.bilgileriGoster();
-        System.out.println("Tür: " + tur);
-    }
-    
-    // Kuşa özel metod
-    public void uc() {
-        System.out.println(ad + " yükseklerde uçuyor");
-    }
-} 
+class Kus extends hayvan {
+  String tur;
+  public Kus(String a, int y, String t) {
+    super(a,y);
+    tur=t;
+  }
+  public void sesCikar(){
+    System.out.println(ad+" cik cik");
+  }
+  public void hareketEt(){
+    System.out.println(ad+" ucuyor");
+  }
+  public void bilgileriGoster(){
+    super.bilgileriGoster();
+    System.out.println("Tur:"+tur);
+  }
+}
