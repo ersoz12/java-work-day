@@ -1,5 +1,6 @@
 # OOP 
- - nesnelerini hem veri hem de kod içeren yazılım nesneleri olarak modellemenin bir yoludur.
+ - Nesnelerini hem veri hem de kod içeren yazılım nesneleri olarak modellemenin bir yoludur.
+ - OOP bazen sınıf tabanlı programlama olarak da adlandırılır.
 ## Class (Sınıf)
 - Sınıf bir şablon gibidir. Ev yaparken çizilen plan gibi.
 - Özellikler (renk, hız) + davranışlar (çalıştır(), dur()) içerir.
@@ -75,6 +76,7 @@
 - **Inheritance**: Miras, tekrar yazma.  
 - **Polymorphism**: Aynı metot, farklı davranış.  
 - **Abstraction**: Gereksizi sakla, özünü göster.
+
 
 
 
