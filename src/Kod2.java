@@ -6,17 +6,17 @@ public class Kod2 {
  Hayvan hayvan2 = new Kedi("Pamuk", 2, "Tekir");
  Hayvan hayvan3 = new Kus("Maviş", 1, "Muhabbet Kuşu");
                 
-        System.out.println("=== Hayvanların Sesleri ===");
+        System.out.println("Hayvanların Sesleri ");
         hayvan1.sesCikar();
         hayvan2.sesCikar();
         hayvan3.sesCikar();
         
-        System.out.println("\n=== Hayvanların Bilgileri ===");
+        System.out.println("\n Hayvanların Bilgileri");
         hayvan1.bilgileriGoster();
         hayvan2.bilgileriGoster();
         hayvan3.bilgileriGoster();
    
-        System.out.println("\n=== Hayvanların Hareketleri ===");
+        System.out.println("\n Hayvanların Hareketleri");
         hayvan1.hareketEt();
         hayvan2.hareketEt();
         hayvan3.hareketEt();
@@ -62,18 +62,17 @@ class Kopek extends Hayvan {
     
     @Override
     public void hareketEt() {
-        System.out.println(ad + " koşuyor ve kuyruğunu sallıyor.");
+        System.out.println(ad + " koşuyor , kuyruğunu sallıyor.");
     }
     
     @Override
     public void bilgileriGoster() {
-        super.bilgileriGoster(); // Üst sınıfın metodunu çağırır
+        super.bilgileriGoster(); 
         System.out.println("Cins: " + cins);
     }
     
-
     public void topGetir() {
-        System.out.println(ad + " topu getiriyor!");
+        System.out.println(ad + " topu getiriyor");
     }
 }
 
@@ -88,7 +87,7 @@ class Kedi extends Hayvan {
     
     @Override
     public void sesCikar() {
-        System.out.println(ad + " (Kedi): Miyav!");
+        System.out.println(ad + " (Kedi): Miyav");
     }
     
     @Override
@@ -104,7 +103,7 @@ class Kedi extends Hayvan {
     
     
     public void purr() {
-        System.out.println(ad + " mırıldanıyor: Prrrrr...");
+        System.out.println(ad + " mırıldanıyor: Prrrrr");
     }
 }
 
@@ -135,6 +134,6 @@ class Kus extends Hayvan {
     
     // Kuşa özel metod
     public void uc() {
-        System.out.println(ad + " yükseklerde uçuyor!");
+        System.out.println(ad + " yükseklerde uçuyor");
     }
 } 
