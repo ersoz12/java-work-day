@@ -2,8 +2,8 @@
 public class Kod1 {
     public static void main(String[] args) {
      
-        Ogrenci ogrenci1 = new Ogrenci("Ahmet", 20, "Bilgisayar Mühendisliği");
-        Ogrenci ogrenci2 = new Ogrenci("Ayşe", 19, "Matematik");
+        Ogrenci ogrenci1 = new Ogrenci("Cagri", 28, "Bilgisayar Mühendisliği");
+        Ogrenci ogrenci2 = new Ogrenci("Ege", 24, "Matematik");
         
         
         ogrenci1.bilgileriGoster();
