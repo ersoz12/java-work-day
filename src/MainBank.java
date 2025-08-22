@@ -2,7 +2,11 @@ public class MainBank {
  
       public static void main(String[] args) {
 
-          Bank egeBank = new Bank("5146465", 1000.00, "İSMAİL", "ersozc07@gmail.com", "+90 555 895 8888");
+
+         Bank egeBank = new Bank();
+
+          //Bank egeBank = new Bank("5146465", 1000.00, "İSMAİL",
+           //       "ersozc07@gmail.com", "+90 555 895 8888");
 
           System.out.println(egeBank.getNumber());
           System.out.println(egeBank.getBalance());
@@ -27,5 +31,10 @@ public class MainBank {
           egeBank.paraCekme(54.46);
   
           egeBank.paraCekme(54.45);
+
+          Bank timsBank = new Bank("Cagri",
+                  "cagri@gmail.com" , "12345");
+           System.out.println("BankaNo:" + timsBank.getNumber() + ":name " +
+                   timsBank.getCustomerName());
       }
   }

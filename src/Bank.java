@@ -7,6 +7,8 @@ public class Bank {
      private  String customerPhone;
 
      public Bank () {
+         this("5146465", 2.50 , "Default name",
+                 "Default adress", "Default phone");
          System.out.println("Empty constructor called");
      }
      public Bank(String number, double balance,String customerName, String email,
@@ -18,7 +20,15 @@ public class Bank {
          this.customerEmail = email;
          customerPhone = phone;
      }
-     public void paraYatirma(double yatirilanTutar) {
+
+    public Bank(String customerName, String customerEmail, String customerPhone) {
+        this("99999" , 100.55 ,customerName, customerEmail,customerPhone);
+       // this.customerName = customerName;
+       // this.customerEmail = customerEmail;
+       // this.customerPhone = customerPhone;
+    }
+
+    public void paraYatirma(double yatirilanTutar) {
  
          balance += yatirilanTutar;
          System.out.println("Deposit of TL" + yatirilanTutar + " made. New balance is TL" +
