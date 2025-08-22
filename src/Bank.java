@@ -5,8 +5,19 @@ public class Bank {
      private  String customerName;
      private  String customerEmail;
      private  String customerPhone;
- 
- 
+
+     public Bank () {
+         System.out.println("Empty constructor called");
+     }
+     public Bank(String number, double balance,String customerName, String email,
+                 String phone) {
+         System.out.println("Bank constructor with parameters called");
+         this.number = number;
+         this.balance = balance;
+         this.customerName = customerName;
+         this.customerEmail = email;
+         customerPhone = phone;
+     }
      public void paraYatirma(double yatirilanTutar) {
  
          balance += yatirilanTutar;
