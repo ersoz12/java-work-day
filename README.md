@@ -11,6 +11,25 @@
 
 --Setter → Bir sınıftaki private değişkenin değerini güncellemek/atamak için kullanılan metottur.
 
+-- Static değişkenler doğrudan erişime sahip olamazlar data gerektrimeyen işlemlerde kullanılır. 
+## OJO (Plain Old Java Object)
+   -- en basit haliyle sadece veri tutmak için kullanılan sade sınıflardır.
+   Alanlar (fields / variables) → private tanımlanır.
+
+Getter ve Setter metodları → alanlara erişim için yazılır.
+
+Parametresiz constructor (zorunlu değil ama genelde olur).
+
+toString(), equals(), hashCode() gibi metotlar da eklenebilir.
+
+📌 Özellikleri:
+
+Framework veya kütüphane bağımlılığı yoktur (örneğin extends veya implements zorunluluğu bulunmaz).
+
+Sadece veri taşımak için kullanılır → bu yüzden POJO’ya bazen Model Class ya da Entity de denir.
+
+Serializable gibi interface implement edebilir ama bu POJO’nun özünü bozmaz.
+
 ## Class (Sınıf)
 - Sınıf bir şablon gibidir. Ev yaparken çizilen plan gibi.
 - Özellikler (renk, hız) + davranışlar (çalıştır(), dur()) içerir.
@@ -86,6 +105,7 @@
 - **Inheritance**: Miras, tekrar yazma.  
 - **Polymorphism**: Aynı metot, farklı davranış.  
 - **Abstraction**: Gereksizi sakla, özünü göster.
+
 
 
 
