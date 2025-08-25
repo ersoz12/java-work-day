@@ -5,6 +5,9 @@
 ## önemli noktalar kodsal
 - this sadece nesne (object) içinden kullanılır.
     - Static metotlarda (static) kullanılamaz çünkü static metotlar nesneye değil sınıfa aittir.
+ ---Getter → Bir sınıftaki private (gizli) değişkenin değerini okumak için kullanılan metottur.
+
+--Setter → Bir sınıftaki private değişkenin değerini güncellemek/atamak için kullanılan metottur.
 
 ## Class (Sınıf)
 - Sınıf bir şablon gibidir. Ev yaparken çizilen plan gibi.
@@ -81,6 +84,7 @@
 - **Inheritance**: Miras, tekrar yazma.  
 - **Polymorphism**: Aynı metot, farklı davranış.  
 - **Abstraction**: Gereksizi sakla, özünü göster.
+
 
 
 
