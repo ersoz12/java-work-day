@@ -1,0 +1,131 @@
+[33m657a663[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Add MainCustomer.java and Customer.java
+src/Customer.java
+src/Kredi.java
+src/MainCustomer.java
+src/MainKredi.java
+[33m4d08b9a[m Update README.md
+README.md
+[33m9d276f3[m Update README.md
+README.md
+[33m99a8c17[m Update Bank.java and MainBank.java
+src/Bank.java
+src/MainBank.java
+[33mab65f4b[m Update Bank.java and MainBank.java
+src/Bank.java
+src/MainBank.java
+[33m6a09b2a[m Restore Bank.java and MainBank.java
+src/Bank.java
+src/MainBank.java
+[33m1a38a8f[m Update Car.java and MainCar.java
+src/Car.java
+src/MainCar.java
+[33m9453a6b[m Update README.md
+README.md
+[33m37355d5[m Update README.md
+README.md
+[33m16fbdaa[m Update Car.java and add MainCar.java
+src/Car.java
+src/MainCar.java
+[33m72fe7ed[m Delete src/oop.java
+src/oop.java
+[33m0e3955c[m Delete src/oop1.java
+src/oop1.java
+[33mc7d2b18[m Update Main.java
+src/Main.java
+[33m8c3a4b2[m Delete src/KOD3.java
+src/KOD3.java
+[33m6463ffc[m Delete src/ıf_then_yapisi.java
+"src/\304\261f_then_yapisi.java"
+[33mdb8e982[m Update ıf_then_yapisi.java
+"src/\304\261f_then_yapisi.java"
+[33m0aed23c[m Add oop.java and Car.java
+src/Car.java
+src/oop.java
+src/oop1.java
+"src/\304\261f_then_yapisi.java"
+[33m8f5188f[m IntelliJ IDEA Run butonu düzeltildi - Main.java ve run configurations eklendi
+.idea/java-work-day.iml
+src/KOD3.java
+src/Main.java
+[33mfad3af5[m Update 2025-08-19.md
+notes/2025-08-19.md
+[33ma59f979[m Update README.md
+README.md
+[33m1081264[m Update README.md
+README.md
+[33mdc164b3[m README.md
+README.md
+[33m0b383db[m Update 2025-08-19.md
+notes/2025-08-19.md
+[33m91e650b[m Update 2025-08-19.md
+notes/2025-08-19.md
+[33m7dc244c[m 2025-08-19.md
+notes/2025-08-19.md
+[33m4cbfaff[m Update 2025-08-19.md
+notes/2025-08-19.md
+[33mea07d11[m 2025-08-19.md
+notes/2025-08-19.md
+[33m70b1b3a[m README.md
+README.md
+[33mb2517fa[m README.md
+README.md
+[33m02d5ca7[m Update Kod2.java
+src/Kod2.java
+[33m809496b[m Kod2.java
+src/Kod2.java
+[33m5f294c2[m Kod2.java
+src/Kod2.java
+[33me8b9d4c[m Kod1.java
+src/Kod1.java
+[33mbb84229[m Update .gitignore
+.gitignore
+[33mee51bff[m Update Kod2.java
+src/Kod2.java
+[33m3c398f6[m Kod1.java
+src/Kod1.java
+[33md68fe04[m Update README.md
+README.md
+[33m7ed02a3[m Gitignore dosyası eklendi ve proje yapısı düzenlendi
+.gitignore
+[33m913748e[m OOP örnekleri eklendi: Kod1 ve Kod2 ile temel ve ileri OOP kavramları
+README.md
+codes
+src/Kod1.java
+src/Kod2.java
+src/ornek.java
+[33m442ad38[m Java work day project updates
+.idea/vcs.xml
+ornek.java
+[33mc473af9[m chore: repo cleanup; move sources to src/ and ignore IDE files
+javawd
+untitled2
+[33m378a145[m Delete out/production/java-work-day directory
+out/production/java-work-day/Main.class
+[33m3806401[m main.java eklendi
+out/production/java-work-day/Main.class
+[33m81c2894[m Update codes
+codes
+[33m79c3507[m Update codes
+codes
+[33m5367802[m yerel değişiklikler
+.idea/vcs.xml
+[33m1fd5a28[m Merge remote-tracking branch 'origin/main'
+[33mfa6ac64[m feat: ilk commit - tüm proje dosyaları
+.idea/.gitignore
+.idea/java-work-day.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+javawd
+notes/oneor
+untitled2
+[33maf786ce[m Create codes
+codes
+[33m890f2ca[m Update 2025-08-19.md
+notes/2025-08-19.md
+[33m1717d92[m Update 2025-08-19.md
+notes/2025-08-19.md
+[33mb89f5ab[m notes: 2025-08-19 günlük not
+notes/2025-08-19.md
+[33mcf29fa3[m ilk commit: README eklendi
+README.md
