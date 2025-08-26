@@ -36,6 +36,10 @@ Ne işe yarar?
 - Framework’ler için temel oluşturur
 - Bakım kolaylığı
 
+  Notsal : Boilerplate Code aynı işi yapmak için tekrar tekrar yazmamız gereken, çok değişmeyen, kalıp kod parçalarıdır.
+
+  RECORD pojo ile aynı işlevi görür ancak daha az kodla işlerini halleder bu neden record kullanmak şuan için daha mantıklı geliyor. 
+
 ## Class (Sınıf)
 - Sınıf bir şablon gibidir. Ev yaparken çizilen plan gibi.
 - Özellikler (renk, hız) + davranışlar (çalıştır(), dur()) içerir.
@@ -111,6 +115,7 @@ Ne işe yarar?
 - **Inheritance**: Miras, tekrar yazma.  
 - **Polymorphism**: Aynı metot, farklı davranış.  
 - **Abstraction**: Gereksizi sakla, özünü göster.
+
 
 
 
