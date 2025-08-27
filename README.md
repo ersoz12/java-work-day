@@ -229,3 +229,4 @@ Ne işe yarar?
 
 
 >>>>>>> 5f8fd6db33ebbdbdbb93eabf0f7a4a7ab0766222
+
