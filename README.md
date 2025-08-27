@@ -84,7 +84,7 @@ Ne işe yarar?
 - Bazen miras yerine kompozisyon daha iyidir.  
   Örn: Araba bir motor içerir → motor ayrı sınıf olmalı.
 - Üst sınıf değişince alt sınıflar da etkilenebilir.
-
+-super, alt sınıf ile üst sınıf arasındaki köprüdür; üst sınıfın constructor’ını çağırmak için super(...), üst sınıftaki metodu veya değişkeni kullanmak için super.metod() ya da super.degisken şeklinde yazılır. Böylece kalıtımda (inheritance) alt sınıf, üst sınıfın davranışlarına ve özelliklerine doğrudan erişebilir.
 ---
 
 ## Polymorphism (Çok Biçimlilik)
@@ -229,4 +229,5 @@ Ne işe yarar?
 
 
 >>>>>>> 5f8fd6db33ebbdbdbb93eabf0f7a4a7ab0766222
+
 
