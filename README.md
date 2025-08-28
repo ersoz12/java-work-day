@@ -14,9 +14,9 @@
 - Static değişkenler doğrudan erişime sahip olamazlar data gerektrimeyen işlemlerde kullanılır.
 
 - #HASHCODE() == bir nesnenin sayısal temsilini (integer) döndüren metottur.
-Nesneleri hızlıca karşılaştırmak veya koleksiyonlarda (HashMap, HashSet, HashTable) saklamak için kullanılır.
-İki eşit nesne (equals true dönerse) → aynı hashCode değerine sahip olmalıdır.
-Ama aynı hashCode değerine sahip iki nesne eşit olmak zorunda değildir (çakışma olabilir).
+-Nesneleri hızlıca karşılaştırmak veya koleksiyonlarda (HashMap, HashSet, HashTable) saklamak için kullanılır.
+-İki eşit nesne (equals true dönerse) → aynı hashCode değerine sahip olmalıdır.
+-Ama aynı hashCode değerine sahip iki nesne eşit olmak zorunda değildir (çakışma olabilir).
 
 🔑 Kullanım amacı:
 Koleksiyonlarda nesneleri daha hızlı bulmak (arama, ekleme, silme).
@@ -154,6 +154,7 @@ Sadece tekli kalıtım vardır: Bir sınıf yalnızca bir sınıfı extends edeb
 - **Inheritance**: Miras, tekrar yazma.  
 - **Polymorphism**: Aynı metot, farklı davranış.  
 - **Abstraction**: Gereksizi sakla, özünü göster.
+
 
 
 
