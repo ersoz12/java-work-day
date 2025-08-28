@@ -73,6 +73,10 @@ Ne işe yarar?
 - Dışarıya ne kadar az gösterirsen o kadar güvenli olur.
 - Mantık: Kapıyı açıyorum ama kim girecek ben karar veriyorum.
 
+- protected erişim belirleyici, kapsülleme (encapsulation) kapsamında kullanılan bir erişim türüdür. protected ile tanımlanan alan veya metotlar aynı paket içindeki tüm sınıflar tarafından ve ayrıca farklı paketlerdeki alt sınıflar (inheritance/miras alınan sınıflar) tarafından erişilebilir. Yani private kadar sıkı kapalı değildir, ama public kadar da herkese açık değildir. En çok kalıtım senaryolarında kullanılır, böylece alt sınıflar üst sınıfın bazı verilerine/doğrudan alanlarına güvenli bir şekilde erişebilir.
+
+👉 Özet: protected, kapsüllemeyi koruyarak “sadece aile içi ve mirasçılara aç” mantığıyla çalışır.
+
 ---
 
 ## Inheritance (Kalıtım / Miras)
@@ -229,5 +233,6 @@ Ne işe yarar?
 
 
 >>>>>>> 5f8fd6db33ebbdbdbb93eabf0f7a4a7ab0766222
+
 
 
