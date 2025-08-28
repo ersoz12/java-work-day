@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 # OOP 
  - Nesnelerini hem veri hem de kod içeren yazılım nesneleri olarak modellemenin bir yoludur.
  - OOP bazen sınıf tabanlı programlama olarak da adlandırılır.
@@ -101,7 +100,9 @@ Alt sınıf, üst sınıftaki metotları ezebilir (override) ve kendi davranış
 Sadece tekli kalıtım vardır: Bir sınıf yalnızca bir sınıfı extends edebilir.
 
 ## Polymorphism (Çok Biçimlilik)
+
 - Kodu daha basit hale getirir
+- Kodu daha geniş kapsamda çeşitliliğini yani genişletebilirliğini teşvi eden bir yapı.
 - Aynı isimde metot, nesneye göre farklı davranır.
 - Örn: `sesCikar()` → köpek “Hav!”, kedi “Miyav!”.
 - Bu sayede `if-else` çorbasına gerek kalmaz.
@@ -130,6 +131,7 @@ Sadece tekli kalıtım vardır: Bir sınıf yalnızca bir sınıfı extends edeb
 - **Inheritance**: Miras, tekrar yazma.  
 - **Polymorphism**: Aynı metot, farklı davranış.  
 - **Abstraction**: Gereksizi sakla, özünü göster.
+
 
 
 
