@@ -63,6 +63,17 @@ Ne işe yarar?
 
 ---
 
+ -Sınıf Nesnesi, sınıf hiyerarşisinin köküdür. Her sınıfın üst sınıfı Object'tir. Diziler de dahil olmak üzere tüm nesneler, bu sınıfın yöntemlerini uygular.
+
+ - EXTENDS  anahtar kelimesi, bir sınıfın başka bir sınıftan miras (kalıtım) almasını sağlar.
+
+Alt sınıf (child) → Üst sınıftaki (parent) alanlara (değişkenler) ve metotlara erişebilir.
+Kod tekrarını azaltır, ortak özellikleri üst sınıfta toplar.
+Alt sınıf, üst sınıftaki metotları ezerek (override) kendi davranışını yazabilir.
+Java’da bir sınıf sadece bir sınıfı extends edebilir (tekli kalıtım).
+
+👉 Özet: extends → "X sınıfı, Y sınıfının özelliklerini ve davranışlarını miras alır" demektir.
+
 ## Encapsulation (Kapsülleme)
 - Amaç: Veriyi korumak.
 - Değişkenleri `private` yap → dışarıdan direkt erişilmesin.
@@ -131,6 +142,7 @@ Sadece tekli kalıtım vardır: Bir sınıf yalnızca bir sınıfı extends edeb
 - **Inheritance**: Miras, tekrar yazma.  
 - **Polymorphism**: Aynı metot, farklı davranış.  
 - **Abstraction**: Gereksizi sakla, özünü göster.
+
 
 
 
