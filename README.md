@@ -90,6 +90,15 @@ Ne işe yarar?
 - Üst sınıf değişince alt sınıflar da etkilenebilir.
 -super, alt sınıf ile üst sınıf arasındaki köprüdür; üst sınıfın constructor’ını çağırmak için super(...), üst sınıftaki metodu veya değişkeni kullanmak için super.metod() ya da super.degisken şeklinde yazılır. Böylece kalıtımda (inheritance) alt sınıf, üst sınıfın davranışlarına ve özelliklerine doğrudan erişebilir.
 ---
+- EXTENDS : anahtar kelimesi, kalıtım (inheritance) için kullanılır. Bir sınıf başka bir sınıfı extends ile miras alırsa:
+
+Alt sınıf (child/subclass), üst sınıfın (parent/superclass) alanlarını (fields) ve metotlarını kullanabilir.
+
+Böylece tekrar tekrar aynı kodu yazmaya gerek kalmaz → kod tekrarını azaltır.
+
+Alt sınıf, üst sınıftaki metotları ezebilir (override) ve kendi davranışını yazabilir.
+
+Sadece tekli kalıtım vardır: Bir sınıf yalnızca bir sınıfı extends edebilir.
 
 ## Polymorphism (Çok Biçimlilik)
 - Aynı isimde metot, nesneye göre farklı davranır.
@@ -233,6 +242,7 @@ Ne işe yarar?
 
 
 >>>>>>> 5f8fd6db33ebbdbdbb93eabf0f7a4a7ab0766222
+
 
 
 
